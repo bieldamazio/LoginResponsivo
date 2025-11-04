@@ -122,7 +122,12 @@ form > button{
     color: white;
     font-size: 1em;
     margin-top: 10px;
+    cursor: pointer;
+    transition: 0.2s;
 }
+
+form > button:hover{
+    background-color: var(--cor-vermelha);}
 
 form > a{
     font-size: .8em;
