@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Responsivo</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem"></div>
+
+            <div id="formulario">
+                <h1>Login 0</h1>
+                <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder 
+                    fazer as configurações no seu ambiente.</p>
+                <form>
+                    <div class="campo">
+                        <i class="fa-solid fa-candy-cane"></i>
+                        <input type="email" 
+                        name="email"
+                        id="email"
+                        placeholder="Digite seu email"
+                        autocomplete="email"
+                        required maxlength="30">
+                        <label for="email">Login</label>
+                    </div>
+
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password"
+                        name="senha"
+                        id="senha"
+                        placeholder="Digite sua senha"
+                        autocomplete="current-password"
+                        required
+                        minlength="8"
+                        maxlength="20">
+                        <label for="senha">Senha</label>
+                    </div>
+
+                    <button type="submit" value="Entrar">Entrar</button>
+                    <a href="#"><i class="fa-solid fa-hammer"></i> Esqueci minha senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
